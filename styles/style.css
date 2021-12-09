@@ -10,7 +10,7 @@ body {
 }
 
 .contacts {
-    width: 1390px;
+    width: 1460px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@ body {
 
  .version {
     padding: 29px 30px 26px;
-    border-right: 1px solid rgba(196, 196, 196, 0.5);
+   
  }
 
  .header_eye_button {
@@ -82,3 +82,120 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
  }
+
+ .vk-link {
+    padding: 29px 30px 26px;
+    border-right: 1px solid rgba(196, 196, 196, 0.5);
+    border-left: 1px solid rgba(196, 196, 196, 0.5);
+ }
+
+ .vk_img {
+    width: 24px;
+    height: 25px;
+    background-image: url('../images/vk.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+
+ .youtube-link {
+    padding: 29px 30px 26px;
+    border-right: 1px solid rgba(196, 196, 196, 0.5);
+ }
+
+ .you_img {
+    width: 24px;
+    height: 25px;
+    background-image: url('../images/youtube.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+
+ .facebook-link {
+    padding: 29px 30px 26px;
+    border-right: 1px solid rgba(196, 196, 196, 0.5);
+ }
+ 
+ .face_img {
+    width: 24px;
+    height: 25px;
+    background-image: url('../images/facebook.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ 
+ .instagramm-link {
+    padding: 29px 30px 26px;
+    border-right: 1px solid rgba(196, 196, 196, 0.5);
+ }
+
+ .insta_img {
+    width: 24px;
+    height: 25px;
+    background-image: url('../images/instagram.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+
+ .header-info {
+     width: 1920px;
+     height: 700px;
+     background: #4FBFA5;
+ }
+
+.menu {
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+    display: flex;
+}
+
+ .cosmo {
+    margin: 30px 65px 165px 310px;
+ }
+
+ .plast {
+    margin: 30px 65px 255px -6px;
+ }
+
+ .stomat{
+    margin: 30px 65px 30px -6px;
+ }
+
+ .laz {
+    margin: 30px 65px 30px -6px;
+ }
+
+ .cont {
+    margin: 30px 65px 30px -6px;
+ }
+
+ .zapis {
+    margin: 21px 65px 30px -6px;
+    color: black;
+ }
+
+.button_zapis {
+    font-size: 19px;
+    padding: 9px 15px 10px;
+}
+
+
+.gallery_img {
+    width: 746px;
+    height: 533px;
+    background-image: url('../images/Rectangle\ 7.png');
+    margin: 40px 844px 0px
+}
+
+.cosmo_h1 {
+    font-size: 48px;
+    font-family: verdana;
+    color: white;
+}
+
+
+
+
+
+
