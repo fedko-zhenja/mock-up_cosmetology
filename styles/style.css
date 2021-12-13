@@ -71,6 +71,7 @@ body {
     padding: 10px 15px 8px;
     display: flex;
     align-items: center; 
+    border: 1px solid #00868A;
  }
 
  .header_eye_image {
@@ -178,6 +179,7 @@ body {
 .button_zapis {
     font-size: 19px;
     padding: 9px 15px 10px;
+    border: 1px solid #FFFFFF;
 }
 
 .gallery{
@@ -225,6 +227,8 @@ body {
     margin-top: 35px;
     color: white;
     background: #00868A;
+    border: 1px solid #00868A;
+    
 }
 
 .strelki {
@@ -258,4 +262,41 @@ body {
 
 .right:after {
     content: '\2192'
+}
+
+.sub_menu {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 158px;
+    margin-left: 1px;
+    
+}
+
+.button_komplex {
+    color: white;
+    background: #00868A;
+    border: 1px solid #00868A;
+    font-family: verdana;
+    font-size: 21px;
+    padding: 26px 245px;
+}
+
+.button_zentr {
+    color: white;
+    background: #4FBFA5;
+    border: 1px solid #4FBFA5;
+    font-family: verdana;
+    font-size: 21px;
+    padding: 26px 87px;
+}
+
+.button_vip {
+    color: white;
+    background: #00868A;
+    border: 1px solid #00868A;
+    font-family: verdana;
+    font-size: 21px;
+    padding: 26px 87px;
 }
