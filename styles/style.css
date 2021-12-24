@@ -5,6 +5,7 @@ body {
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 400;
+    flex-direction: column;
 }
 
 .content {
@@ -142,7 +143,7 @@ body {
 
  .header-info {
      width: 1296px;
-     height: 700px;
+     height: 722px;
      background: #4FBFA5;
      padding: 0 312px;
 }
@@ -186,7 +187,7 @@ body {
 }
 
  .zapis {
-    
+    padding-right: 10px;
     color: black;
 }
 
@@ -203,10 +204,12 @@ body {
 
 .cosmo_2 {
     font-size: 40px;
-    
     color: white;
     align-self: center;
-    padding-right: 126px;
+    padding-right: 49px;
+    width: 501px;
+    height: 281px;
+
 }
 
 .cosmo_img{
@@ -215,27 +218,23 @@ body {
     width: 746px;   
 }
 
+.h1_gallery {
+    padding-bottom: 20px;
+}
+
 .text_gallery {
-    font-size: 18px;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
-.p_1{
-    margin-top: 30px;
-    margin-bottom: 7px;
+.podrobno {
+    padding-top: 40px;
 }
 
-.p_2{
-    margin-bottom: 7px;
-}
-
-.p_3{
-    margin-bottom: 7px;
-}
 
 .button_podrobno {
     font-size: 19px;
     padding: 9px 15px 10px;
-    margin-top: 35px;
     color: white;
     background: #00868A;
     border: 1px solid #00868A;
@@ -245,9 +244,7 @@ body {
 .strelki {
     flex-direction: row;
     display: flex;
-    position: absolute;
-    margin-left: 498px;
-    margin-top: 49px;
+    justify-content: flex-end;
 }
 
 .left {
@@ -285,9 +282,8 @@ body {
     color: white;
     background: #00868A;
     border: 1px solid #00868A;
-    
     font-size: 21px;
-    padding: 26px 245px;
+    padding: 38px 202px;
 }
 
 .button_zentr {
@@ -296,7 +292,7 @@ body {
     border: 1px solid #4FBFA5;
     
     font-size: 21px;
-    padding: 26px 87px;
+    padding: 38px 87px;
 }
 
 .button_vip {
@@ -305,5 +301,41 @@ body {
     border: 1px solid #00868A;
     
     font-size: 21px;
-    padding: 26px 87px;
+    padding: 38px 87px;
+}
+
+main {
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.part_one {
+    display: flex;
+    flex-direction: row;
+}
+
+.innovation {
+    background: #00868A;
+    display: inline;
+    padding-left: 40px;
+    padding-top: 35px;
+}
+
+.button_innovation {
+    padding: 9px 15px 10px;
+    font-size: 18px;
+    color: white;
+    background: #4FBFA5;
+    border: 1px solid #4FBFA5;
+}
+
+.text_innovation {
+    font-size: 30px;
+    color: white;
+    line-height: 45px;
+}
+
+.aesthetics {
+    display: inline;
 }
