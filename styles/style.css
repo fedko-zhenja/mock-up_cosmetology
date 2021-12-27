@@ -142,7 +142,7 @@ body {
 }
 
  .header-info {
-     width: 1296px;
+     width: 1298px;
      height: 722px;
      background: #4FBFA5;
      padding: 0 312px;
@@ -313,13 +313,23 @@ main {
 .part_one {
     display: flex;
     flex-direction: row;
+    margin-top: 89px;
+}
+
+.padding_innovation {
 }
 
 .innovation {
     background: #00868A;
     display: inline;
-    padding-left: 40px;
     padding-top: 35px;
+    width: 526px;
+    height: 580px;
+}
+
+.button_innovation_1 {
+    padding-bottom: 30px;
+    padding-left: 40px;
 }
 
 .button_innovation {
@@ -334,6 +344,39 @@ main {
     font-size: 30px;
     color: white;
     line-height: 45px;
+    padding-left: 40px;
+}
+
+.strelka_part_one {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    padding-left: 40px;
+}
+
+.button_right_part_one {
+    background: #00868A;
+    border: 1px solid #FFFFFF;
+    font-size: 25px;
+    color: white;
+    width: 50px;
+    height: 40px;
+}
+
+.button_right_part_one:after {
+    content: '\2192'
+}
+
+.podrobno_part_one {
+    font-size: 16px;
+    color: white;
+    display: inline;
+    padding-left: 20px;
+}
+
+.part_one_img {
+    background-image: url('../images/Rectangle\ 7.png');
+    height: 230px;
+    width: 526px; 
 }
 
 .aesthetics {
