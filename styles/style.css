@@ -8,6 +8,10 @@ body {
     flex-direction: column;
 }
 
+button {
+    font-family: "Gilroy";
+}
+
 .content {
     width: 1920px;
     background-color: white;
@@ -142,8 +146,8 @@ body {
 }
 
  .header-info {
-     width: 1298px;
-     height: 722px;
+     width: 1297px;
+     height: 700px;
      background: #4FBFA5;
      padding: 0 312px;
 }
@@ -245,6 +249,7 @@ body {
     flex-direction: row;
     display: flex;
     justify-content: flex-end;
+    opacity: 0.8;
 }
 
 .left {
@@ -253,6 +258,7 @@ body {
     font-size: 35px;
     padding: 4px 12px;
     color: white;
+    font-family: initial;
 }
 
 .right {
@@ -261,7 +267,8 @@ body {
     font-size: 35px;
     padding: 4px 12px;
     color: white;
-    margin-left: -2px;
+    margin-left: -4px;
+    font-family: initial;
 }
 
 .left:after {
@@ -276,6 +283,9 @@ body {
     flex-direction: row;
     display: flex;
     justify-content: center;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
 }
 
 .button_komplex {
@@ -283,7 +293,7 @@ body {
     background: #00868A;
     border: 1px solid #00868A;
     font-size: 21px;
-    padding: 38px 202px;
+    padding: 24px 198px;
 }
 
 .button_zentr {
@@ -292,7 +302,7 @@ body {
     border: 1px solid #4FBFA5;
     
     font-size: 21px;
-    padding: 38px 87px;
+    padding: 24px 87px;
 }
 
 .button_vip {
@@ -301,19 +311,19 @@ body {
     border: 1px solid #00868A;
     
     font-size: 21px;
-    padding: 38px 87px;
+    padding: 27px 91px;
 }
 
 main {
     background: white;
     display: flex;
     justify-content: center;
+    padding-top: 89px;
 }
 
 .part_one {
     display: flex;
     flex-direction: row;
-    margin-top: 89px;
 }
 
 .padding_innovation {
@@ -324,7 +334,6 @@ main {
     display: inline;
     padding-top: 35px;
     width: 526px;
-    height: 580px;
 }
 
 .button_innovation_1 {
@@ -358,8 +367,10 @@ main {
     border: 1px solid #FFFFFF;
     font-size: 25px;
     color: white;
-    width: 50px;
-    height: 40px;
+    width: 53px;
+    height: 43px;
+    opacity: 0.8;
+    font-family: initial;
 }
 
 .button_right_part_one:after {
@@ -374,11 +385,89 @@ main {
 }
 
 .part_one_img {
-    background-image: url('../images/Rectangle\ 7.png');
+    background-image: url('../images/innovations__img.png');
     height: 230px;
     width: 526px; 
 }
 
 .aesthetics {
     display: inline;
+    width: 636px;
+    height: 485px;
+    padding-left: 134px;
+    padding-top: 35px;
+}
+
+.button_aesthetics_1 {
+
+}
+
+.button_aesthetics{
+    padding: 9px 15px 10px;
+    font-size: 18px;
+    color: white;
+    background: #4FBFA5;
+    border: 1px solid #4FBFA5;
+}
+
+.aesthetics_info {
+    position: relative;
+}
+
+.aesthetics_2 {
+    display: flex;
+    flex-direction: row;
+    width: 214px;
+    height: 72px;
+    margin-top: 30px;
+    opacity: 0.4;
+}
+
+.aesthetics_3 {
+    display: flex;
+    flex-direction: row;
+    width: 214px;
+    height: 72px;
+    margin-top: 15px;
+    opacity: 0.4;
+}
+
+.aesthetics_5 {
+    display: flex;
+    flex-direction: row;
+    width: 214px;
+    height: 72px;
+    margin-top: 20px;
+    opacity: 0.4;
+}
+
+.aesthetics_number {
+font-size: 48px;
+width: 50px;
+height: 72px;
+}
+
+.aesthetics_text {
+font-size: 14px;
+width: 144px;
+height: 42px;
+line-height: 150%;
+padding-left: 20px;
+} 
+
+.aesthetics_number_2{
+
+}
+
+.aesthetics_text_2 {
+
+} 
+
+.aesthetics_img {
+    background-image: url('../images/Rectangle\ 13.png');
+    width: 306px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
