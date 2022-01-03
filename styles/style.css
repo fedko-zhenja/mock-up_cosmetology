@@ -311,7 +311,7 @@ button {
     border: 1px solid #00868A;
     
     font-size: 21px;
-    padding: 27px 91px;
+    padding: 26px 89px;
 }
 
 main {
@@ -323,10 +323,7 @@ main {
 
 .part_one {
     display: flex;
-    flex-direction: row;
-}
-
-.padding_innovation {
+    
 }
 
 .innovation {
@@ -398,10 +395,6 @@ main {
     padding-top: 35px;
 }
 
-.button_aesthetics_1 {
-
-}
-
 .button_aesthetics{
     padding: 9px 15px 10px;
     font-size: 18px;
@@ -417,34 +410,47 @@ main {
 .aesthetics_2 {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 214px;
     height: 72px;
     margin-top: 30px;
     opacity: 0.4;
+
 }
 
 .aesthetics_3 {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 214px;
     height: 72px;
     margin-top: 15px;
+    margin-bottom: 44px;
     opacity: 0.4;
+}
+
+.aesthetics_4 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    align-items: center;
 }
 
 .aesthetics_5 {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 214px;
     height: 72px;
-    margin-top: 20px;
+    margin-top: 44px;
     opacity: 0.4;
 }
 
 .aesthetics_number {
 font-size: 48px;
 width: 50px;
-height: 72px;
+
 }
 
 .aesthetics_text {
@@ -456,18 +462,94 @@ padding-left: 20px;
 } 
 
 .aesthetics_number_2{
-
+width: 111px;
+font-size: 96px;
+color: #00868A;
+padding-right: 30px;
 }
 
 .aesthetics_text_2 {
-
+width: 319px;
+height: 84px;
+font-size: 28px;
+line-height: 150%;
 } 
 
 .aesthetics_img {
     background-image: url('../images/Rectangle\ 13.png');
-    width: 306px;
-    height: 400px;
+    width: 335px;
+    height: 446px;
     position: absolute;
     top: 0;
     right: 0;
 }
+
+.part_two {
+    display: flex;
+}
+
+.news {
+    background: #4FBFA5;
+    display: inline;
+    padding-top: 35px;
+    width: 526px;
+    height: 504px;
+}
+
+.button_news {
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+.button_news_2 {
+    padding: 9px 15px 10px;
+    font-size: 18px;
+    color: white;
+    background: #00868A;
+    border: 1px solid #00868A;
+}
+
+.news_one {
+    font-size: 18px;
+    color: white;
+    line-height: 150%;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.news_one:hover {
+background: #00868A;
+}
+
+.news_two {
+    font-size: 18px;
+    color: white;
+    line-height: 150%;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.news_two:hover {
+    background: #00868A;
+    }
+
+.news_three {
+    font-size: 18px;
+    color: white;
+    line-height: 150%;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.news_three:hover {
+    background: #00868A;
+    }
