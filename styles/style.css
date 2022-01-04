@@ -4,7 +4,7 @@ body {
     justify-content: center;
     font-family: "Gilroy";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     flex-direction: column;
 }
 
@@ -283,9 +283,6 @@ button {
     flex-direction: row;
     display: flex;
     justify-content: center;
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 400;
 }
 
 .button_komplex {
@@ -309,20 +306,18 @@ button {
     color: white;
     background: #00868A;
     border: 1px solid #00868A;
-    
     font-size: 21px;
-    padding: 26px 89px;
+    padding: 24px 86px;
 }
 
 main {
     background: white;
-    display: flex;
-    justify-content: center;
     padding-top: 89px;
 }
 
 .part_one {
     display: flex;
+    justify-content: center;
     
 }
 
@@ -486,6 +481,8 @@ line-height: 150%;
 
 .part_two {
     display: flex;
+    justify-content: center;
+    padding-top: 80px;
 }
 
 .news {
@@ -493,7 +490,6 @@ line-height: 150%;
     display: inline;
     padding-top: 35px;
     width: 526px;
-    height: 504px;
 }
 
 .button_news {
@@ -509,7 +505,7 @@ line-height: 150%;
     border: 1px solid #00868A;
 }
 
-.news_one {
+.news_item {
     font-size: 18px;
     color: white;
     line-height: 150%;
@@ -520,36 +516,46 @@ line-height: 150%;
     padding-left: 40px;
 }
 
-.news_one:hover {
-background: #00868A;
-}
-
-.news_two {
-    font-size: 18px;
-    color: white;
-    line-height: 150%;
-    height: 124px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 40px;
-}
-
-.news_two:hover {
+.news_item.active {
     background: #00868A;
+}
+
+.news_item:hover {
+    background: #005658;
+}
+
+    .news_content {
+    width: 770px;
+    padding-top: 35px;
+    background: #00868A;
+    background-color: rgba(0, 134, 138, 0.1);
     }
 
-.news_three {
-    font-size: 18px;
-    color: white;
-    line-height: 150%;
-    height: 124px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 40px;
-}
-
-.news_three:hover {
-    background: #00868A;
+    .news_list {
+        width: 625px;
+        height: 294px;
+        font-size: 14px;
+        line-height: 150%;
+        padding-left: 94px;
+        padding-top: 25px;
     }
+
+    .list_name {
+        font-size: 24px;
+        padding-left: 60px;
+        line-height: 150%;
+        font-weight: 700;
+    }
+
+    .content_list {
+        color: black;
+    }
+
+    ul {
+        list-style: disc;
+        color: #00868A;
+    }
+
+    ul li::marker {
+        font-size: 1.5em;
+      }
