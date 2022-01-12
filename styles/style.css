@@ -147,7 +147,7 @@ button {
 
  .header-info {
      width: 1297px;
-     height: 700px;
+     height: 699px;
      background: #4FBFA5;
      padding: 0 312px;
 }
@@ -290,7 +290,7 @@ button {
     background: #00868A;
     border: 1px solid #00868A;
     font-size: 21px;
-    padding: 24px 198px;
+    padding: 24px 196px;
 }
 
 .button_zentr {
@@ -516,18 +516,13 @@ line-height: 150%;
     padding-left: 40px;
 }
 
-.news_item.active {
-    background: #00868A;
-}
-
 .news_item:hover {
-    background: #005658;
+    background: #00868A;
 }
 
     .news_content {
     width: 770px;
     padding-top: 35px;
-    background: #00868A;
     background-color: rgba(0, 134, 138, 0.1);
     }
 
@@ -559,3 +554,131 @@ line-height: 150%;
     ul li::marker {
         font-size: 1.5em;
       }
+
+    .actual {
+          width: 1920px;
+          height: 350px;
+          display: flex;
+          justify-content: center;
+          background-color: rgba(0, 134, 138, 0.1);
+          margin-top: 100px;
+      }
+
+    .actual_title {
+          font-size: 48px;
+          color: #00868A;
+          font-weight: 700;
+          padding-top: 80px;
+      }
+
+      .actual_item {
+          width: 1920px;
+          height: 343px;
+          display: flex;
+          justify-content: center;
+          position: relative;
+          z-index: 1;
+          bottom: 150px;
+      }
+
+      .actual_item_1 {
+          width: 306px;
+          height: 343px;
+          background-color: #00868A;
+          position: relative;
+          margin-right: 24px;
+      }
+
+      .actual_item_1_img {
+        background-image: url('../images/Rectangle\ 23.png');
+        width: 306px;
+        height: 230px;
+      }
+
+      .actual_text {
+          font-size: 21px;
+          font-weight: 700;
+          color: white;
+          line-height: 150%;
+          display: flex;
+          justify-content: space-around;
+          height: 112px;
+          align-items: center;
+      }
+
+    .actual_content {
+        width: 179px;
+    }
+
+    .actual_button {
+        position: absolute;
+        top: 31px;
+        left: 30px;
+    }
+
+    .button_for_actual {
+        padding: 9px 15px 10px;
+        font-size: 18px;
+        color: white;
+        background: #4FBFA5;
+        border: none;
+    }
+
+    .actual_item_2_img {
+        background-image: url('../images/Rectangle\ 24.png');
+        width: 306px;
+        height: 230px;
+      }
+
+      .actual_item_3_img {
+        background-image: url('../images/Rectangle\ 25.png');
+        width: 306px;
+        height: 230px;
+      }
+
+      .actual_item_4_img {
+        background-image: url('../images/Rectangle\ 26.png');
+        width: 306px;
+        height: 230px;
+      }
+
+      .actual_item_4 {
+        width: 306px;
+        height: 343px;
+        background-color: #00868A;
+        position: relative;
+    }
+
+    .services {
+        display: flex;
+        justify-content: center;
+    }
+
+    .services_content {
+        width: 158px;
+        height: 181px;
+        line-height: 150%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 191px;
+    }
+
+    .services_title{
+        font-size: 21px;
+        font-weight: 700;
+    }
+
+    .services_item {
+        font-size: 14px;
+    }
+
+    .services_content_3 {
+        width: 158px;
+        height: 181px;
+        line-height: 150%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 134px;
+    }
