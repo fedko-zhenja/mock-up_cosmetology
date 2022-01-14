@@ -2,6 +2,7 @@ body {
     background-color: silver;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 500;
@@ -17,130 +18,65 @@ button {
     background-color: white;
 }
 
-.contacts {
-    width: 1460px;
+.logo {
+    width: 260px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.contacts-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.logo {
-    padding: 18px 35px 7px;
-    border-left: 1px solid rgba(196, 196, 196, 0.5);
     border-right: 1px solid rgba(196, 196, 196, 0.5);
-    
+}
+
+.logo_img {
+    background-image: url('../images/logo.png');
+    width: 189px;
+    height: 55px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .number {
-    padding: 36px 30px 26px;
+    width: 185px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-right: 1px solid rgba(196, 196, 196, 0.5);
-    color: #000000;
-    
-    font-size: 20px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
 }
 
-.salon {
-    padding: 29px 30px 26px;
-    border-right: 1px solid rgba(196, 196, 196, 0.5);
-    color: #000000;
-    
-    font-size: 20px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
+.number_content {
+    width: 125px;
+    height: 19px;
+    font-size: 16px;
+}
+
+.locations {
+    width: 199px;
+    height: 90px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgba(196, 196, 196, 0.5);
+}
+
+.locations_item {
+    width: 139px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.salon p {
-    margin-right: 15px;
+.locations_text {
+    width: 104px;
+    height: 19px;
+    font-size: 16px;
 }
 
-#imgsalon {
-    display: inline;
-}
-
- #img {
-    width: 27px;
- }
-
- .version {
-    padding: 29px 30px 26px;
-   
- }
-
- .header_eye_button {
-    color: white;
-    background: #00868A;
-    padding: 10px 15px 8px;
-    display: flex;
-    align-items: center; 
-    border: 1px solid #00868A;
- }
-
- .header_eye_image {
-    width: 25px;
-    height: 17px;
-    margin-right: 10px;
-    display: inline-block;
-    background-image: url('../images/simple-line-icons_eye.png') ;
-    background-size: contain;
-    background-repeat: no-repeat;
- }
-
- .vk-link {
-    padding: 29px 30px 26px;
-    border-right: 1px solid rgba(196, 196, 196, 0.5);
-    border-left: 1px solid rgba(196, 196, 196, 0.5);
- }
-
- .vk_img {
-    width: 24px;
-    height: 25px;
-    background-image: url('../images/vk.png');
-    background-size: contain;
-    background-repeat: no-repeat;
- }
-
- .youtube-link {
-    padding: 29px 30px 26px;
-    border-right: 1px solid rgba(196, 196, 196, 0.5);
- }
-
- .you_img {
-    width: 24px;
-    height: 25px;
-    background-image: url('../images/youtube.png');
-    background-size: contain;
-    background-repeat: no-repeat;
- }
-
- .facebook-link {
-    padding: 29px 30px 26px;
-    border-right: 1px solid rgba(196, 196, 196, 0.5);
- }
- 
- .face_img {
-    width: 24px;
-    height: 25px;
-    background-image: url('../images/facebook.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
- 
- .instagramm-link {
-    padding: 29px 30px 26px;
-    border-right: 1px solid rgba(196, 196, 196, 0.5);
-}
-
- .insta_img {
-    width: 24px;
-    height: 25px;
-    background-image: url('../images/instagram.png');
+.locations_img {
+    background-image: url('../images/Group\ 1.png');
+    width: 20px;
+    height: 20px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -290,7 +226,7 @@ button {
     background: #00868A;
     border: 1px solid #00868A;
     font-size: 21px;
-    padding: 24px 196px;
+    padding: 24px 201px;
 }
 
 .button_zentr {
@@ -654,6 +590,12 @@ line-height: 150%;
         justify-content: center;
     }
 
+    .services_content_item {
+        display: flex;
+        flex-wrap: wrap;
+        width: 990px;
+    }
+
     .services_content {
         width: 158px;
         height: 181px;
@@ -662,6 +604,7 @@ line-height: 150%;
         flex-direction: column;
         justify-content: space-around;
         margin-right: 191px;
+        margin-bottom: 30px;
     }
 
     .services_title{
@@ -681,4 +624,181 @@ line-height: 150%;
         flex-direction: column;
         justify-content: space-around;
         margin-right: 134px;
+        margin-bottom: 30px;
     }
+
+    .navigation_item {
+        width: 295px;
+        height: 357px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .addresses {
+        font-size: 11px;
+        opacity: 0.5;
+    }
+
+    .navigation {
+        font-size: 21px;
+        font-weight: 700;
+    }
+
+    .button_navigation {
+        padding: 15px 25px 14px;
+        font-size: 14px;
+        color: white;
+        background: #00868A;
+        border: none;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        width: 164px;
+        height: 45px;
+    }
+
+    .contacts_2 {
+        width: 1291px;
+        height: 89px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(196, 196, 196, 0.5);
+        border-right: 1px solid rgba(196, 196, 196, 0.5);
+        border-left: 1px solid rgba(196, 196, 196, 0.5);
+    }
+    
+    .contacts-wrapper_2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .activity {
+        width: 644px;
+        display: flex;
+        justify-content: space-evenly;
+        border-right: 1px solid rgba(196, 196, 196, 0.5);
+    }
+
+    .certificates {
+        font-size: 12px;
+        line-height: 150%;
+        font-weight: 400;
+        height: 90px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .confidentiality {
+        font-size: 12px;
+        font-weight: 400;
+        width: 178px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .version_2 {
+        width: 330px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid rgba(196, 196, 196, 0.5);
+    }
+
+    .header_eye_button_2 {
+        width: 270px;
+        height: 40px;
+        background-color: #00868A;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .version_img_2 {
+        background-image: url('../images/simple-line-icons_eye.png');
+        width: 26px;
+        height: 22px;
+    }
+
+    .version_text_2 {
+        color: white;
+        font-size: 14px;
+        line-height: 16px;
+        width: 204px;
+        height: 15px;
+    }
+
+    .vk-link_2 {
+        width: 80px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid rgba(196, 196, 196, 0.5);
+    }
+
+    .vk_img_2 {
+        background-image: url('../images/vk.png');
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .youtube-link_2 {
+        width: 80px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid rgba(196, 196, 196, 0.5);
+    }
+
+    .youtube_img_2 {
+        background-image: url('../images/youtube.png');
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+        background-repeat: no-repeat;   
+    }
+
+    .facebook-link_2 {
+        width: 80px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid rgba(196, 196, 196, 0.5);
+    }
+
+    .facebook_img_2 {
+        background-image: url('../images/facebook.png');
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .instagramm-link_2 {
+        width: 80px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instagramm_img_2 {
+        background-image: url('../images/instagram.png');
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    
